@@ -52,7 +52,7 @@ barplot(major_count$major_category,
      horiz = TRUE,
      col ="blue")
 
-write.csv(major_count$major_category, "538college.csv", row.names=FALSE)
+write.csv(df, "538college.csv", row.names=FALSE)
 
 ```
 
